@@ -1,0 +1,1 @@
+docker run -p 80:80 -v `pwd`/httpd.conf:/usr/local/apache2/conf/httpd.conf -v `pwd`/security2.conf:/etc/apache2/mods-available/security2.conf freefood89/httpd
